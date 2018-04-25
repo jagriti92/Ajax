@@ -1,0 +1,127 @@
+root:{
+	font-size: 16px;
+}
+body{
+ word-break: break-all;
+	font-size: 16px;
+}
+.navbar-expand-lg{
+	width: 100v%;
+	background-color: #7E0034;
+	font-family: cursive;
+}
+.rounded{
+	width: 5vmax;
+	height: 5vmax;
+	position: relative;
+	perspective: 100px;
+}
+#page{
+	
+	background: url('./images/img7.jpg');
+	 background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 6rem;
+}
+#dataSection{
+   display: none;
+   	
+   	background: url('./images/img3.jpg');
+	 background-repeat: no-repeat;
+    background-size: cover;
+}
+#here{
+	color:#A80B64;
+}
+.box h4{
+	color: white ;
+}
+.box h3{
+	color: white;
+}
+.box h2{
+	color: blue;
+}
+
+.abc{
+	display: inline-flex;
+}
+.me{
+	font-size: 3.5rem;
+	color: white;
+	text-shadow: 7px 4px #7E0034;
+	text-align: center;
+}
+.find{
+	padding-top: 3vh;
+}
+
+.collapse ul.navbar-nav>li.nav-item>a{
+	color: black;
+	font-size: 2rem;
+	margin-left: 8rem;
+
+}
+.wrap div{
+	background-color: #1D0569;
+	color: #DC007C;
+}
+.ui-accordion-header.ui-state-active{
+   background:#DC007C;
+   color: #1D0569;
+   outline: none;
+   font-size: 2rem;
+   font-weight: 500;
+}
+#accordion .ui-state-focus{
+    outline: none;
+}
+.box{
+	margin-top: 2rem;
+	text-align: center;
+}
+input[type=text] {
+    
+    font-size: 1rem;
+    background-color: #FFFAF0;
+    border-color: #f4a688;
+	font-family: cursive;
+	font-weight: 600;
+}
+.form-control, input[type="search"]:focus {
+    
+    outline: none;
+    outline-offset: 0;
+	outline-color: green;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.coverPic {
+   
+	width: 100%;
+	padding-bottom: 80%;
+	background-position: center 40% 40%;
+	 background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    border: 0.5vw solid #230235;
+    border-radius: 5px;
+}
+
+.profilePic {
+  	margin-top: 10px;
+    border: 0.5vw solid #7E0034;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px silver;
+}
+
+
+@media screen and (max-width: 1024px)
+{
+	.find{
+	padding-top: 1vh;
+}
+}
+
+
