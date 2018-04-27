@@ -16,12 +16,19 @@ body{
 	position: relative;
 	perspective: 100px;
 }
+.nf{
+	height: 100vh;
+	background-color: ;
+}
+
 #page{
-	
 	background: url('./images/img7.jpg');
 	 background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 6rem;
+   }
+.box{
+	margin-top: 8rem;
+	text-align: center;
 }
 #dataSection{
    display: none;
@@ -29,6 +36,9 @@ body{
    	background: url('./images/img3.jpg');
 	 background-repeat: no-repeat;
     background-size: cover;
+}
+#kv{
+	text-align: center;
 }
 #here{
 	color:#A80B64;
@@ -55,11 +65,21 @@ body{
 .find{
 	padding-top: 3vh;
 }
+#btn2{
+	margin-top: 1rem;
+	margin-left: 42%;
 
+}
+#hide{
+	display: none;
+	background-color: #36486b;
+	text-align: center;
+}
 .collapse ul.navbar-nav>li.nav-item>a{
 	color: black;
 	font-size: 2rem;
 	margin-left: 8rem;
+	
 
 }
 .wrap div{
@@ -76,10 +96,7 @@ body{
 #accordion .ui-state-focus{
     outline: none;
 }
-.box{
-	margin-top: 2rem;
-	text-align: center;
-}
+
 input[type=text] {
     
     font-size: 1rem;
@@ -98,7 +115,7 @@ input[type=text] {
 }
 
 .coverPic {
-   
+   margin-top: 0;
 	width: 100%;
 	padding-bottom: 80%;
 	background-position: center 40% 40%;
@@ -121,6 +138,19 @@ input[type=text] {
 {
 	.find{
 	padding-top: 1vh;
+}
+#btn2{
+	margin-left: 30%;
+}
+}
+@media screen and (max-width: 600px){
+#btn2{
+	margin-left: 30%;
+}
+}
+@media screen and (min-width: 600px) and (max-width: 1024px){
+#btn2{
+	margin-left: 40%;
 }
 }
 
